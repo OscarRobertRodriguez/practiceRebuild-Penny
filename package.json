@@ -5,10 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate-icons": "vsvg -s ./svg-icons -t ./src/compiled-icons"
   },
   "dependencies": {
     "vue": "^2.5.17",
+    "vue-mq": "^0.2.1",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
@@ -21,6 +23,9 @@
     "eslint-plugin-vue": "^5.0.0-0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "svg-inline-loader": "^0.8.0",
+    "vue-svg-loader": "^0.11.0",
+    "vue-svgicon": "^3.2.1",
     "vue-template-compiler": "^2.5.17"
   }
 }

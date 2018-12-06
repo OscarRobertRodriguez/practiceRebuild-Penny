@@ -1,29 +1,28 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+@import "styles/base/base.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil");
+
+body {
+  font-family: "Allerta Stencil", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $primary-white;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+#app {
+  border: 3px solid $primary-gold;
+  border-image: linear-gradient(90deg, #a26343, #d2996c, #a26343);
+  border-image-slice: 100%;
+  border-image-slice: 1;
+  min-height: 100%;
+  padding: 0.5rem;
 }
 </style>

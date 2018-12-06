@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+
+html {
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%;
+  box-sizing: border-box;
+
+
+  @include respond(big-desktop) {    // < 1800px
+    font-size: 70%;
+  }
+
+  @include respond(tab-land) {   // > 1200px
+    font-size: 55%;
+  }
+
+  @include respond(tab-port) {   // > 900px
+    font-size: 50%;
+  }
+
+
+  @include respond(phone) {   // > 600px
+    font-size: 50%;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: $primary;
+  margin: 1rem;
+}
+
+
+hr {
+  width: 10%;
+  color: $primary-gold;
+  height: 5px;
+  background: currentColor;
+  border: none;
+  display: block;
+  margin: 1rem auto;
+}
