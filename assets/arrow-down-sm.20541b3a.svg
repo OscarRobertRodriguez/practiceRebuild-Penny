@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow/Down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.988885055%" y1="50.7600307%" x2="100%" y2="50.7600307%" id="linearGradient-1">
+            <stop stop-color="#A26343" offset="0%"></stop>
+            <stop stop-color="#D2996C" offset="49.1430166%"></stop>
+            <stop stop-color="#A26343" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME---FINAL" transform="translate(-1158.000000, -5770.000000)" fill="url(#linearGradient-1)">
+            <g id="EVENTS" transform="translate(398.000000, 3101.000000)">
+                <g id="Rows" transform="translate(15.000000, 2626.000000)">
+                    <g id="Event-1">
+                        <g id="Arrow/Down" transform="translate(728.000000, 23.000000)">
+                            <g id="Down" transform="translate(23.500000, 26.000000) scale(-1, -1) rotate(-90.000000) translate(-23.500000, -26.000000) translate(17.500000, 19.500000)">
+                                <polygon id="Page-1" points="0 12.6840418 12.0004623 6.34132049 0 -4.4408921e-15"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
